@@ -77,3 +77,62 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+# ToDo App
+
+This is a simple ToDo application built using React Native.
+
+## Prerequisites
+
+Before running the application, ensure you have the following dependencies installed:
+
+- Node.js and npm (Node Package Manager)
+- React Native CLI
+- Xcode (for iOS development, Mac only)
+- Android Studio (for Android development)
+
+## Getting Started
+
+Follow these steps to run the application locally:
+
+1. **Clone this repository** to your local machine:
+
+    git clone <repository-url>
+
+2. **Navigate to the project directory:**
+
+    cd todo-app
+
+3. **Install dependencies:**
+
+    npm install
+
+4. **For iOS:**
+
+    - Navigate to the `ios` directory and **install Pod dependencies:**
+
+        cd ios
+        pod install
+
+    - **Open** the `ToDoApp.xcworkspace` file **in Xcode.**
+
+    - **Select your desired simulator** or connect your iOS device and **run the application**.
+
+5. **For Android:**
+
+    - Make sure you have an Android emulator running or a physical Android device connected.
+
+    - **Run** the following command to **start the Metro Bundler:**
+
+        npx react-native start
+
+    - **Open** another terminal window and **run** the following command to **install and launch** the application on your connected device or emulator:
+
+        npx react-native run-android
+
+## Usage
+
+Once the application is running on your device or simulator, you can **add new tasks** by typing them into the input field and pressing the "Add" button. To **delete** a task, press the delete icon next to it. To **edit** a task, press the edit icon and modify the task text, then press "Save".
+
